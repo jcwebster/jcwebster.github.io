@@ -1,0 +1,349 @@
+
+.navbar-inverse .navbar-nav>li>a {
+  font-family: 'Oswald','Helvetica',sans-serif;
+  font-size: 16px;
+  -webkit-transition: background-color 0.7s ease;
+  -moz-transition:background-color 0.7s ease;
+  background-color:#222;
+  color: #CCC;
+
+}
+
+.brand{
+  font-family: 'Oswald','Helvetica',sans-serif;
+  font-size: 16px;
+  color:#CCC;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+  background-color: #444;
+}
+
+#nonLink a:hover{
+  background-color: #222;
+  color:#C5C5C5;
+}
+
+.jumbotron{
+  background-color: rgba(33, 91, 140, 0.67);
+  padding-top: 70px;
+}
+
+.jumbotron h1{
+  background-color: transparent;
+  text-align: center;
+  font-size: 128px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: rgba(247,251,255,1);
+  padding-bottom: 5px;
+  margin-bottom: 10px
+}
+
+.jumbotron p{
+  font-size: 28px;
+  font-family: 'Oswald','Arial',sans-serif;
+  font-weight:400;
+  color: #000000;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.jumbotron h3{
+  text-align: center;
+  font-family: "Lato",'Arial',sans-serif;
+  font-size:48;
+  color: rgba(247,251,255,1);
+}
+
+#contactInfo{
+  font-size: 18px;
+  font-weight: 300;
+  color: #000
+  text-align: center;
+  margin-top: 0px;
+}
+
+@media all and (max-width: 768px) {
+  .jumbotron h1{
+    font-size: 55px;
+  }
+
+  .jumbotron p{
+    font-size: 16px;
+  }
+
+  #contactInfo{
+    font-size:14px;
+  }
+
+
+}
+
+
+hr{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-top: 1px solid #555;
+}
+.navbar{
+  padding-bottom: 0px;
+}
+
+.buttonContainer{
+  text-align: center;
+}
+
+.buttonContainer a {
+
+  text-align: center;
+
+}
+
+.buttonContainer span{
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    background-color:transparent;
+    color: black;
+}
+
+.buttonContainer span:hover{
+  background-color: rgba(22, 61, 94, 0.67);
+  color: #EEE;
+}
+
+.resumeContainer a{
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    background-color:transparent;
+    color: black;
+}
+
+.resumeContainer a:hover{
+  background-color: rgba(22, 61, 94, 0.67);
+  color: #EEE;
+  border-color:#EEE;
+}
+
+.gitButton{
+  width:43px;
+  height: 43px;
+  text-align: center;
+  line-height: 44px;
+  border: solid;
+  border-width: 0px;
+  border-radius: 23%;
+  border-color: transparent;
+}
+
+.linkedinButton{
+  width:43px;
+  height: 43px;
+  text-align: center;
+  line-height: 44px;
+  border: solid;
+  border-width: 0px;
+  border-radius: 23%;
+  border-color: transparent;
+}
+
+.resumeButton{
+  width:110px;
+  height: 43px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
+  border-radius: 7px;
+  border-width: 4px;
+  border-color: #000;
+  color: #000;
+  background-color: transparent;
+  font-family: 'Oswald', 'Arial', sans-serif;
+  font-size:18px;
+  padding:6px;
+}
+
+.resumeText{
+  float:right;
+}
+
+.resumeButton i{
+  margin-top: 2px;
+}
+@media all and (max-width: 768px) {
+  .resumeButton{
+    width:43;
+  }
+
+  .resumeButton i{
+    font-size: 22px;
+  }
+
+  .resumeText{
+    display: none;
+  }
+}
+.photoContainer{
+  text-align: center;
+}
+
+.personalPhoto{
+  display: block;
+  max-width: 70%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.aboutParagraph h1{
+  font-family: 'Lato','Arial',sans-serif;
+  font-weight: 400;
+  font-size: 50;
+  color: #333;
+}
+
+.aboutParagraph p{
+  font-size: 16px;
+  font-family: 'Lato', 'Arial' , sans-serif;
+  color: #444;
+  line-height: 24px;
+}
+
+h1{
+  font-family: 'Lato','Arial',sans-serif;
+  font-weight: 400;
+  font-size: 50;
+  color:#333;
+}
+
+h2{
+  font-family: 'Lato', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 300;
+  font-size:36px;
+  color: #333;
+}
+
+.experiance{
+  overflow:auto;
+}
+.experiance h2{
+  margin-top: 10px;
+  margin-bottom:2px;
+}
+
+.title{
+  float:left;
+}
+.devicons{
+  float:right;
+  font-size: 40px;
+}
+.devicons i{
+  color: rgba(22, 61, 94, 0.67);
+}
+
+.exptext{
+  margin-top: 10px;
+  font-family: 'Lato', 'Arial' , sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px
+  color: #444;
+}
+
+.expPartners{
+  margin-top: 15px;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.expPartners i{
+  color: rgba(22, 61, 94, 0.67);
+}
+
+.skills .row {
+  margin-bottom: 5px;
+  padding:0px;
+}
+
+.skills .skillBar{
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color:rgba(22, 61, 94, 0.67);
+  height:24px;
+}
+
+.skills p{
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 4px;;
+}
+
+.skills  b{
+  font-weight: 700;
+  font-size:24;
+  padding-top: 0px;
+  color: rgba(22, 61, 94, 0.67);
+}
+
+.skillTitle{
+  font-family: 'Lato', 'Arial', sans-serif;
+  padding-right: 20px;
+  font-size: 24px;
+  text-align: right;
+  font-weight: 300;
+  margin: 0px;
+}
+
+@media all and (max-width: 768px) {
+  .skillTitle{
+    text-align: center;
+    font-size: 40px;
+  }
+  .title{
+    font-size:32  px;
+  }
+
+  .devicons{
+    float:left;
+    font-size:32px;
+  }
+}
+
+.imgIcon{
+  height: 24px;
+  padding-bottom: 5px;
+  width: auto;
+}
+
+.job-experiance{
+  display: table-cell;
+  vertical-align: bottom;
+}
+.job-experiance > span{
+  font-family: 'Lato', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 300;
+  color: #333;
+}
+.job-experiance >.title{
+  font-size: 33px;
+}
+.company-name{
+  margin-left: 3px;
+  font-size: 28px;
+}
+
+.section{
+  margin-bottom: 50px;
+}
+
+#contactInfo > a{
+  color: #111;
+}
+
+#contactInfo > a:hover{
+  -webkit-transition: color 0.1s ease;
+  -moz-transition: background-color 0.1s ease;
+  color: #555;
+}
