@@ -32,7 +32,7 @@
   background-color: transparent;
   text-align: center;
   font-size: 128px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lora', sans-serif;
   font-weight: 400;
   color: rgba(247,251,255,1);
   padding-bottom: 5px;
@@ -50,7 +50,7 @@
 
 .jumbotron h3{
   text-align: center;
-  font-family: "Lato",'Arial',sans-serif;
+  font-family: "Lora",'Arial',sans-serif;
   font-size:48;
   color: rgba(247,251,255,1);
 }
@@ -195,7 +195,7 @@ hr{
 }
 
 .aboutParagraph h1{
-  font-family: 'Lato','Arial',sans-serif;
+  font-family: 'Lora','Arial',sans-serif;
   font-weight: 400;
   font-size: 50;
   color: #333;
@@ -203,20 +203,20 @@ hr{
 
 .aboutParagraph p{
   font-size: 16px;
-  font-family: 'Lato', 'Arial' , sans-serif;
+  font-family: 'Lora', 'Arial' , sans-serif;
   color: #444;
   line-height: 24px;
 }
 
 h1{
-  font-family: 'Lato','Arial',sans-serif;
+  font-family: 'Lora','Arial',sans-serif;
   font-weight: 400;
   font-size: 50;
   color:#333;
 }
 
 h2{
-  font-family: 'Lato', 'Arial', 'Helvetica', sans-serif;
+  font-family: 'Lora', 'Arial', 'Helvetica', sans-serif;
   font-weight: 300;
   font-size:36px;
   color: #333;
@@ -243,7 +243,7 @@ h2{
 
 .exptext{
   margin-top: 10px;
-  font-family: 'Lato', 'Arial' , sans-serif;
+  font-family: 'Lora', 'Arial' , sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px
@@ -252,7 +252,7 @@ h2{
 
 .expPartners{
   margin-top: 15px;
-  font-family: 'Lato', 'Arial', sans-serif;
+  font-family: 'Lora', 'Arial', sans-serif;
   font-size: 18px;
   font-weight: 400;
 }
@@ -274,7 +274,7 @@ h2{
 }
 
 .skills p{
-  font-family: 'Lato', 'Arial', sans-serif;
+  font-family: 'Lora', 'Arial', sans-serif;
   font-size: 20px;
   font-weight: 400;
   padding-top: 4px;;
@@ -288,7 +288,7 @@ h2{
 }
 
 .skillTitle{
-  font-family: 'Lato', 'Arial', sans-serif;
+  font-family: 'Lora', 'Arial', sans-serif;
   padding-right: 20px;
   font-size: 24px;
   text-align: right;
@@ -322,7 +322,7 @@ h2{
   vertical-align: bottom;
 }
 .job-experiance > span{
-  font-family: 'Lato', 'Arial', 'Helvetica', sans-serif;
+  font-family: 'Lora', 'Arial', 'Helvetica', sans-serif;
   font-weight: 300;
   color: #333;
 }
