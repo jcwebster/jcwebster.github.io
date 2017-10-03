@@ -5,9 +5,9 @@ Second time around... I got the updates I made pushed to Github.
 I made the mistake of making a branch in cmd line, and I still don't know how to switch to it to work 'on it'.
 
 Then I learned that you have to (in my still working knowledge):
-git pull (updates your files) (git fetch does this if other authors are working on the project)
+git pull origin <branch> (updates your files) (git fetch does this if other authors are working on the project)
 make your edits
 git add
 git commit -m "type msg like so"
 and then....
-git push origin , which would be master... until i figure out how to switch branches
+git push origin <branch>, which would be master... until i figure out how to switch branches
