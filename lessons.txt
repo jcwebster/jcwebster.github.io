@@ -11,3 +11,15 @@ git add
 git commit -m "type msg like so"
 and then....
 git push origin <branch>, which would be master... until i figure out how to switch branches
+
+
+I've now gotten the hang of the editing routine. This is exciting.
+I learned how to switch branches, push from a branch remotely and see that push to the repository online. See below.
+
+after committing,
+git push origin <branch you've edited on>
+This is where i made a pull request and deleted <branch edited> online. However it still seemed to be present in cmd.
+<!-- figure out how to delete a branch remotely here.-->
+git checkout master
+git pull origin master
+All refreshed!
