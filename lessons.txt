@@ -23,3 +23,12 @@ This is where i made a pull request and deleted <branch edited> online. However 
 git checkout master
 git pull origin master
 All refreshed!
+
+Pushing and Branches
+
+The local copies of branches (on github) and the remote branches (on my laptop) are TWO DIFFERENT THINGS. When you work on master on your laptop, it is not the same master as on github.com. This means that even if you work directly on master on laptop, pull or git fetch origin first. This way you are working with the most updated branch. Likewise, when you push your updates from your laptop, they update the respective branch on github.com. 
+Command:
+
+git push origin <branchname>
+
+Then, deleting a branch on laptop doesn’t delete it on github.com… only way to do this that i know of is by going to Code—>branches—>delete [garbage can] 
