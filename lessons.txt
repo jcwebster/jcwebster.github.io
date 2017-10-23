@@ -31,4 +31,6 @@ Command:
 
 git push origin <branchname>
 
-Then, deleting a branch on laptop doesn’t delete it on github.com… only way to do this that i know of is by going to Code—>branches—>delete [garbage can] 
+Then, deleting a branch on laptop doesn’t delete it on github.com. To do so, use:
+
+git push origin —delete <branchname>
