@@ -34,3 +34,34 @@ git push origin <branchname>
 Then, deleting a branch on laptop doesn’t delete it on github.com. To do so, use:
 
 git push origin —delete <branchname>
+
+
+MERGING:
+
+Holy cow. Learned a lesson that kept me up 2 hours extra late tonight.
+Merging. Say you’ve messed around on an experimental branch with a file and pretty much screwed it up. You switch back to master. You branch off and make real updates. Somehow, the weird changes get committed to master. Now you want to merge the real updates back into master… so what to do?
+
+This is what I learned:
+
+a) On the branch that has your final updates you want to merge to master, make sure you have checked out the commit that you want to merge (see step 2-3 below) 
+b) git checkout master
+
+1. use git log --pretty=format:"%h %s" --graph or git log -p -5 to show your most recent commits on the master branch. 
+2. Copy the hash of the commit that was normal and good before getting screwed up.
+3. use git checkout <hash of commit>
+4. You are in ‘detached HEAD’ state, but next step is git merge finalFile ( which is the branch of your real work that you want to save on master )
+5. git push origin master.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
