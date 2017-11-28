@@ -55,7 +55,11 @@ b) git checkout master
 5. git push origin master.
 
 
+11-27-2017
+Force Push updates, re: correcting history on github.com
 
+1. for if you have screwed up a branch on github and wish to push a branch that you have modified on git
+2. Use ‘git push origin <branch> —force’ to force a fast-forward on github.com
 
 
 
