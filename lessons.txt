@@ -36,7 +36,9 @@ Then, deleting a branch on laptop doesn’t delete it on github.com. To do so, u
 git push origin —delete <branchname>
 
 
-MERGING:
+MERGING: (read in brackets first)
+
+[So, day 2: I didn’t actually fix it the way I thought I did last night. I revisited today, and found a great source on how to do what I wanted.  I checked out master. I ‘reset’ the master branch to have HEAD point to the hash of a previous commit, before I had screwed up any formatting in a new branch and then merged it with master. Once HEAD was where I wanted it on master, I simply merged the good branch with all of the updates (THEY WERE KEPT, THANK GOD. THAT’S WHAT I WAS MOST AFRAID OF LOSING) to master and everything got updated properly :) ]
 
 Holy cow. Learned a lesson that kept me up 2 hours extra late tonight.
 Merging. Say you’ve messed around on an experimental branch with a file and pretty much screwed it up. You switch back to master. You branch off and make real updates. Somehow, the weird changes get committed to master. Now you want to merge the real updates back into master… so what to do?
