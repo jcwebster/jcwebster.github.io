@@ -6,9 +6,13 @@ I made the mistake of making a branch in cmd line, and I still don't know how to
 
 Then I learned that you have to (in my still working knowledge):
 git pull origin <branch> (updates your files) (git fetch does this if other authors are working on the project) [must be a remote branch… maybe try omitting origin next time]
+
 make your edits
+
 git add
+
 git commit -m "type msg like so"
+
 and then....
 git push origin <branch>, which would be master... until i figure out how to switch branches
 
@@ -27,6 +31,7 @@ All refreshed!
 Pushing and Branches
 
 The local copies of branches (on github) and the remote branches (on my laptop) are TWO DIFFERENT THINGS. When you work on master on your laptop, it is not the same master as on github.com. This means that even if you work directly on master on laptop, pull or git fetch origin first. This way you are working with the most updated branch. Likewise, when you push your updates from your laptop, they update the respective branch on github.com. 
+
 Command:
 
 git push origin <branchname>
