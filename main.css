@@ -347,3 +347,10 @@ h2{
   -moz-transition: background-color 0.1s ease;
   color: #555;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
