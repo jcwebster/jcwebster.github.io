@@ -24,7 +24,7 @@
 }
 
 .jumbotron{
-  background-color: rgba(33, 91, 140, 0.67);
+  background-color: rgba(201, 211, 202, 0.67);
   padding-top: 70px;
 }
 
@@ -34,7 +34,7 @@
   font-size: 128px;
   font-family: 'Lora', sans-serif;
   font-weight: 400;
-  color: rgba(247,251,255,1);
+  color: rgba(25,36,47,1);
   padding-bottom: 5px;
   margin-bottom: 10px
 }
@@ -52,7 +52,7 @@
   text-align: center;
   font-family: "Lora",'Arial',sans-serif;
   font-size:48;
-  color: rgba(247,251,255,1);
+  color: rgba(25,36,47,1);
 }
 
 #contactInfo{
