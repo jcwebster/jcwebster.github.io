@@ -94,9 +94,7 @@ hr{
 }
 
 .buttonContainer a {
-
   text-align: center;
-
 }
 
 .buttonContainer span{
@@ -192,6 +190,11 @@ hr{
   height: auto;
   margin-right: auto;
   margin-left: auto;
+}
+
+.projectPic{
+	display: block;
+	text-align: center;
 }
 
 .aboutParagraph h1{
@@ -315,6 +318,7 @@ h2{
   height: 24px;
   padding-bottom: 5px;
   width: auto;
+  text-align: right;
 }
 
 .job-experiance{
@@ -327,11 +331,11 @@ h2{
   color: #333;
 }
 .job-experiance >.title{
-  font-size: 33px;
+  font-size: 28px;
 }
 .company-name{
   margin-left: 3px;
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .section{
@@ -354,3 +358,6 @@ h2{
     margin-right: auto;
     width: 50%;
 }
+
+
+
